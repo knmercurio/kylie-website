@@ -843,3 +843,22 @@ transition: color 0.3s ease;
 .nav-links a:hover {
 color: #C87958;
 }
+/* FIX PASSION PROJECTS LAYOUT */
+
+.project-container {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 40px;
+}
+
+.project-image a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.project-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
